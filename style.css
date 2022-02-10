@@ -1,0 +1,354 @@
+                                                              ::-webkit-scrollbar {
+                                                                 width: 14px;
+                                                             }
+                                                             
+                                                              ::-webkit-scrollbar-track {
+                                                                 background-color: #2c3e4f;
+                                                             }
+                                                             
+                                                              ::-webkit-scrollbar-thumb {
+                                                                 background: #128f76;
+                                                                 border-radius: 70px;
+                                                             }
+                                                             
+                                                             * {
+                                                                 padding: 0;
+                                                                 margin: 0;
+                                                                 box-sizing: border-box;
+                                                             }
+                                                             
+                                                             h1,
+                                                             h2,
+                                                             h3,
+                                                             h4,
+                                                             h5,
+                                                             h6 {
+                                                                 font-weight: 700;
+                                                                 font-family: 'Montserrat', sans-serif;
+                                                             }
+                                                             
+                                                             html {
+                                                                 font-size: 10px;
+                                                             }
+                                                             
+                                                             body {
+                                                                 font-family: 'Lato', sans-serif;
+                                                                 font-size: 1.6rem;
+                                                                 font-weight: 400;
+                                                                 line-height: 1.5;
+                                                                 background-color: #fff;
+                                                             }
+                                                             
+                                                             section {
+                                                                 padding-top: 10rem;
+                                                                 padding-bottom: 10rem;
+                                                                 background-color: rgb(197, 197, 197);
+                                                                 text-align: center;
+                                                             }
+                                                             
+                                                             ul {
+                                                                 list-style: none;
+                                                             }
+                                                             
+                                                             .send-btn {
+                                                                 color: #fff;
+                                                                 border-color: #fff;
+                                                                 background-color: transparent;
+                                                                 padding: 2rem 2rem;
+                                                             }
+                                                             
+                                                             .send-btn:hover {
+                                                                 color: #2c3e4f;
+                                                                 background-color: #fff;
+                                                             }
+                                                             
+                                                             .btn-primary {
+                                                                 background-color: #1abc9b;
+                                                                 border-color: #1abc9b;
+                                                                 border-radius: 10px;
+                                                                 padding: 2rem 1.8rem;
+                                                                 font-size: 20px;
+                                                                 color: #fff;
+                                                             }
+                                                             
+                                                             .btn-primary:hover {
+                                                                 background-color: #128f76;
+                                                                 border-color: #128f76;
+                                                             }
+                                                             
+                                                             .clearfix::after {
+                                                                 content: "";
+                                                                 display: block;
+                                                                 clear: both;
+                                                             }
+                                                             
+                                                             a {
+                                                                 text-decoration: none;
+                                                             }
+                                                             
+                                                             .container {
+                                                                 width: 1140px;
+                                                                 margin-left: auto;
+                                                                 margin-right: auto;
+                                                                 padding-left: 0.5rem;
+                                                                 padding-right: 0.5rem;
+                                                             }
+                                                             
+                                                             .text-uppercase {
+                                                                 text-transform: uppercase;
+                                                             }
+                                                             /* -----navbar--------- */
+                                                             
+                                                             nav {
+                                                                 font-family: 'Montserrat', sans-serif;
+                                                                 background-color: #2c3e4f;
+                                                                 color: #fff;
+                                                                 padding-top: 3rem;
+                                                                 padding-bottom: 3rem;
+                                                                 position: fixed;
+                                                                 width: 100%;
+                                                                 z-index: 500;
+                                                             }
+                                                             
+                                                             #logo-box {
+                                                                 float: left;
+                                                                 padding-top: 0.5rem;
+                                                             }
+                                                             
+                                                             #logo-box .logo {
+                                                                 color: #fff;
+                                                                 font-size: 3.2rem;
+                                                                 font-weight: 700;
+                                                             }
+                                                             
+                                                             #nav-links {
+                                                                 float: right;
+                                                             }
+                                                             
+                                                             #nav-links .nav-item {
+                                                                 float: left;
+                                                                 margin: 1.5rem;
+                                                             }
+                                                             
+                                                             #nav-links .nav-link {
+                                                                 color: #fff;
+                                                                 font-size: 1.6rem;
+                                                                 font-weight: 700;
+                                                                 padding: 1.6rem;
+                                                                 letter-spacing: 0.2rem;
+                                                                 transition: 0.4s;
+                                                             }
+                                                             
+                                                             #nav-links .nav-link:hover {
+                                                                 color: #1abc9b;
+                                                             }
+                                                             /* ------------header--------------*/
+                                                             
+                                                             header {
+                                                                 background-color: #1abc9b;
+                                                                 height: 900px;
+                                                                 padding-top: calc(106px + 6rem);
+                                                                 text-align: center;
+                                                             }
+                                                             
+                                                             .img-fluid {
+                                                                 max-width: 360px;
+                                                                 height: auto;
+                                                             }
+                                                             
+                                                             header h1 {
+                                                                 color: #fff;
+                                                                 font-size: 6rem;
+                                                             }
+                                                             
+                                                             .star-light,
+                                                             .star-dark {
+                                                                 border-top: #fff solid 0.4rem;
+                                                                 border-radius: 12px;
+                                                                 max-width: 25rem;
+                                                                 overflow: visible;
+                                                                 height: 0;
+                                                                 margin: 2.5rem auto;
+                                                             }
+                                                             
+                                                             .star-light::after {
+                                                                 content: "\2605";
+                                                                 color: #fff;
+                                                                 font-weight: 900;
+                                                                 font-size: 3.2rem;
+                                                                 position: relative;
+                                                                 top: -28px;
+                                                                 padding: 0 8px;
+                                                                 background-color: #1abc9b;
+                                                             }
+                                                             
+                                                             header h2 {
+                                                                 color: #fff;
+                                                                 font-size: 2.4rem;
+                                                                 font-family: 'Lato', sans-serif;
+                                                                 font-weight: 300;
+                                                             }
+                                                             /* ------------ portfolio kısmı -------------*/
+                                                             
+                                                             #portfolio {
+                                                                 height: 900px;
+                                                                 padding-top: 10rem;
+                                                                 padding-bottom: 10rem;
+                                                                 text-align: center;
+                                                                 background-color: rgb(197, 197, 197);
+                                                             }
+                                                             
+                                                             #portfolio h2 {
+                                                                 font-size: 4.8rem;
+                                                                 color: rgb(32, 30, 30);
+                                                             }
+                                                             
+                                                             hr.star-light {
+                                                                 border-color: #fff;
+                                                             }
+                                                             
+                                                             hr.star-dark {
+                                                                 border-color: rgb(32, 30, 30);
+                                                             }
+                                                             
+                                                             .col {
+                                                                 float: left;
+                                                                 width: 33.33%;
+                                                                 height: 330px;
+                                                                 padding: 20px;
+                                                                 margin-top: 10px;
+                                                             }
+                                                             
+                                                             .item {
+                                                                 position: relative;
+                                                                 border: solid 7px #2c3e4f;
+                                                                 border-radius: 10px;
+                                                             }
+                                                             
+                                                             .item img {
+                                                                 display: block;
+                                                                 border-radius: 3px;
+                                                             }
+                                                             
+                                                             .img-overlay {
+                                                                 position: absolute;
+                                                                 top: 0;
+                                                                 left: 0;
+                                                                 height: 100%;
+                                                                 width: 100%;
+                                                                 background-color: #2c3e4f;
+                                                                 opacity: 0;
+                                                             }
+                                                             
+                                                             .img-fluit2 {
+                                                                 max-width: 100%;
+                                                                 height: auto;
+                                                             }
+                                                             
+                                                             .img-overlay .icon {
+                                                                 color: #fff;
+                                                                 font-size: 7rem;
+                                                                 position: absolute;
+                                                                 top: 50%;
+                                                                 left: 50%;
+                                                                 transform: translate(-50%, -50%);
+                                                             }
+                                                             
+                                                             .item:hover .img-overlay {
+                                                                 opacity: 0.7;
+                                                             }
+                                                             /*----------- about kısım---------------*/
+                                                             
+                                                             #about {
+                                                                 background-color: #1abc9b;
+                                                                 color: #fff;
+                                                             }
+                                                             
+                                                             #about h2 {
+                                                                 font-size: 4.9rem;
+                                                             }
+                                                             
+                                                             #text {
+                                                                 text-align: left;
+                                                                 font-weight: 500;
+                                                             }
+                                                             
+                                                             #text .left {
+                                                                 float: left;
+                                                                 width: 50%;
+                                                                 padding-right: 2rem;
+                                                                 padding-left: 23rem;
+                                                             }
+                                                             
+                                                             #text .right {
+                                                                 float: right;
+                                                                 width: 50%;
+                                                                 padding-left: 2rem;
+                                                                 padding-right: 23rem;
+                                                             }
+                                                             
+                                                             .btn {
+                                                                 margin-top: 2rem;
+                                                                 font-size: 2rem;
+                                                                 padding: 1.4rem 1.5rem;
+                                                                 font-weight: 700;
+                                                                 display: inline-block;
+                                                                 background-color: rgb(226, 226, 226);
+                                                                 color: black;
+                                                                 border-radius: 25px;
+                                                                 transition: all .5s;
+                                                             }
+                                                             
+                                                             .btn:hover {
+                                                                 background-color: #fff;
+                                                             }
+                                                             
+                                                             #contact {
+                                                                 background-color: #fff;
+                                                             }
+                                                             
+                                                             #contact h2 {
+                                                                 font-size: 4.8rem;
+                                                                 color: black;
+                                                             }
+                                                             
+                                                             #contact-form {
+                                                                 width: 70%;
+                                                                 margin: 0 auto;
+                                                                 text-align: left;
+                                                             }
+                                                             
+                                                             .form {
+                                                                 border-bottom: #fff solid 1px;
+                                                                 padding-bottom: 3rem;
+                                                                 margin-bottom: 4rem;
+                                                             }
+                                                             
+                                                             .form input,
+                                                             .form textarea {
+                                                                 border: none;
+                                                                 width: 100%;
+                                                                 display: block;
+                                                                 font-size: 2.4rem;
+                                                             }
+                                                             
+                                                             .form input:focus {
+                                                                 outline: 0;
+                                                             }
+                                                             
+                                                             footer {
+                                                                 padding-top: 6rem;
+                                                                 padding-bottom: 5rem;
+                                                                 background-color: #2c3e4f;
+                                                                 color: #fff;
+                                                                 text-align: center;
+                                                             }
+                                                             
+                                                             footer h4 {
+                                                                 font-size: 2.4rem;
+                                                             }
+                                                             
+                                                             footer p {
+                                                                 font-size: 2rem;
+                                                                 margin-top: 2rem;
+                                                             }
